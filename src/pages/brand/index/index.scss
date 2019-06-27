@@ -1,0 +1,158 @@
+@import "searchbar/searchbar.scss";
+@import "sort/sort.scss";
+@import "classify/classify.scss";
+@import "floor/floor.scss";
+
+.fixed-box {
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 102;
+  width: 100%; */
+}
+
+.filter {
+  font-size: 28px;
+  width: 750px;
+  height: 80px;
+  background-color: #fff;
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 101;
+}
+
+.floor-box {
+  width: 280px;
+  height: 80px;
+  float: left;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.floor-box::after {
+  content: ' ';
+  width: 1px;
+  height: 48px;
+  background-color: #e6e6e6;
+  position: absolute;
+  top: 16px;
+  right: 0;
+}
+
+.floor-box:last-child::after {
+  display: none;
+}
+
+.filter-text-box {
+  height: 80px;
+  box-sizing: border-box;
+  border-bottom: solid 1px #e6e6e6;
+  display: flex;
+  align-items: center;
+}
+
+.filter-text-box.current {
+  background-color: #fff;
+  color: #b31b1b;
+  border-bottom-color: #fff;
+}
+
+.floor-text {
+  flex: 1;
+  height: 48px;
+  line-height: 48px;
+  padding: 16px 0 16px 10px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  float: left;
+}
+
+.floor-container {
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  top: 80px;
+  background-color: #fff;
+  z-index: 101;
+  width: 750px;
+  padding: 30px 0 0 0;
+}
+
+.filter-letter-box {
+  width: 190px;
+}
+
+.letter-text {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 10px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  float: left;
+  position: relative;
+  top: 0;
+  left: 0;
+  border-bottom:solid 1px #e6e6e6;
+}
+
+.filter .sparrow-icon {
+  font-size: 24px;
+  color: #bababa;
+  vertical-align: middle;
+  padding-right: 20px;
+}
+
+.letter-text .sparrow-icon {
+  padding: 0;
+  margin-left: 6px;
+  vertical-align: 0;
+}
+
+.brand-nomore {
+  color: #999;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 28px;
+  background-color:#f7f7f7;
+}
+
+.letter-box {
+  position: fixed;
+  top: 80px;
+  right: 0;
+  padding: 120px 15px;
+  z-index: 200;
+}
+
+.letter-item {
+  width: 32px;
+  height: 32px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 50%;
+}
+
+.letter-box .current {
+  color: #fff;
+  background-color: #e3ba7d;
+}
+
+.letter-item .icon-santiao {
+  font-size: 24px;
+}
+
+.letter-show-value {
+  position: absolute;
+  top: 40%;
+  right: 100px;
+}
+
+.brand-list {
+  background-color: #f7f7f7;
+}

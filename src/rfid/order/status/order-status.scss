@@ -1,0 +1,58 @@
+.order-status {
+  width: 100%;
+  height: 200px;
+  background-color: #121212;
+  color: #fff;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.order-status-background {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: -20px;
+  top: -20px;
+  font-size: 200px;
+  line-height: 200px;
+  color: #302d28;
+  z-index: 10;
+}
+
+.order-status-message {
+  box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+  padding: 0 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+}
+
+.order-status-message > view.message1 {
+  font-size: 32px;
+  height: 50px;
+  line-height: 50px;
+  flex: 2;
+}
+
+.order-status-message > view.message1 .sparrow-icon {
+  font-size: 50px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.order-status-message > view.message2 {
+  font-size: 28px;
+  text-align: right;
+  flex: 3;
+}
+
+.order-status-message > view.message2 view.text2 {
+  padding-top: 10px;
+  font-size: 24px;
+}

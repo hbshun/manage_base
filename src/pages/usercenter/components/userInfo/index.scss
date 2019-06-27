@@ -1,0 +1,120 @@
+/* pages/usercenter/userInfo/userInfo.wxss */
+
+.background {
+  height: 380px;
+  padding: 20px 20px 0 0px;
+  background-color: #2f3238;
+}
+
+.basic-stytle {
+  height: 250px;
+  margin: -360px 20px 0 20px;
+  padding: 28px 26px 0 26px;
+  border-radius: 20px 20px 0 0;
+  z-index: 100;
+}
+
+/* 个人信息 */
+
+.basic-info {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+}
+
+.portrait-out {
+  display: flex;
+  display: -webkit-flex;
+}
+
+.portrait {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.portrait open-data {
+  height: 80px;
+  width: 80px;
+}
+
+.level-name {
+  font-size: 30px;
+  font-weight: 600;
+  height: 80px;
+  line-height: 80px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.sparrow-icon.icon-personal-center-VIP {
+  font-size: 52px;
+  height: 80px;
+  line-height: 80px;
+  margin-left: 20px;
+}
+
+.card-id {
+  display: inline-block;
+  font-size: 28px;
+  height: 80px;
+  line-height: 80px;
+  text-align: right;
+}
+
+/* 优惠券信息 */
+
+.coupons {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+}
+
+.coupons-item {
+  flex: 1;
+}
+
+.coupons-value {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.small-text {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.separator {
+  width: 1px;
+  height: 40px;
+  line-height: 40px;
+  margin: 20px 8px;
+  border-right: 2px solid #fff;
+  opacity: 0.2;
+}
+
+/* 条形码 */
+
+.barcode {
+  border-radius: 0 0 20px 20px;
+  margin: 0 20px 20px 20px;
+  background-color: #fff;
+}
+
+.barcode-canvas {
+  display: flex;
+  height: 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.barcode-canvas>canvas {
+  width: 536px;
+  height: 90px;
+}

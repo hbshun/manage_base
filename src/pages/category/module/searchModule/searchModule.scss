@@ -1,0 +1,35 @@
+/* pages/category/module/searchModule/searchModule.wxss */
+.search-big-div, .weui-search-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  border: none;
+  background-color: #f7f7f7;
+}
+
+.search-big-div .weui-search-bar__form {
+  border: none;
+  background-color: #e6e6e6;
+}
+
+.searchModule.weui-search-bar__label {
+  font-size: 0;
+  height: 56px;
+  line-height: 56px;
+  background-color: #e6e6e6;
+}
+
+.searchModule.weui-search-bar__label .icon-search {
+  display: inlineblock;
+  height: 32px;
+  top: -18px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.searchModule.weui-search-bar__label .weui-search-bar__text{
+  height: 56px;
+  line-height: 56px;
+  display: inline-block
+}  

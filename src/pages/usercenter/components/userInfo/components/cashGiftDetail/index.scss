@@ -1,0 +1,63 @@
+/* pages/usercenter/components/userInfo/components/cashGiftDetail/index.wxss */
+@import '../../../../../../common/css/weui.scss';
+
+.page {
+  background-color: #f7f7f7;
+}
+
+.title {
+  margin: 60px auto 50px 30px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #404959;
+}
+
+.coupon-list {
+  font-size: 34px;
+  margin: 10px 15px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.coupon-item {
+  display: flex;
+  padding: 30px;
+}
+
+.coupon-title {
+  flex: 1;
+  font-weight: 400;
+  color: #333;
+  line-height: 48px;
+}
+
+.coupon-value {
+  flex: 1;
+  font-weight: 600;
+  color: #cdbba1;
+  line-height: 48px;
+  text-align: right;
+}
+
+.coupon-tips {
+  margin: -20px auto 30px 30px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #ccc;
+}
+
+.button {
+  position: fixed;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #fff;
+  color: #333;
+  line-height: 100px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 20px;
+}

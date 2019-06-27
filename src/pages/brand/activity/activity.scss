@@ -1,0 +1,47 @@
+
+.brand-activity {
+  width: 710px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.service-left {
+  margin-right: 30px;
+  font-size: 26px;
+  float: left;
+}
+
+.activity-left {
+  margin-top: 14px;
+  margin-right: 30px;
+  font-size: 26px;
+  float: left;
+}
+
+/* 设置服务项的样式 */
+
+.service-item {
+  color: #999;
+  font-size: 22px;
+  line-height: 40px;
+  height: 40px;
+  float: left;
+  margin-left: 0;
+  margin-right: 30px;
+}
+
+/* 设置服务项中图标的大小 */
+
+.service-item .icon-product-service, .service-item .icon-service-warning {
+  font-size: 20px;
+}
+
+/* 自定义右箭头图标的颜色和大小 */
+
+.def-icon {
+  color: #ccc;
+  font-size: 24px;
+}
+

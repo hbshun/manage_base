@@ -1,0 +1,53 @@
+
+.floor-head {
+  font-size: 28px;
+  padding-left: 30px;
+}
+
+.floor-head > text {
+  font-size: 24px;
+  color: #666;
+}
+
+.floor-list {
+  padding-top: 20px;
+  width: 720px;
+}
+
+.floor-item {
+  width: 210px;
+  box-sizing: border-box;
+  line-height: 50px;
+  /* border: solid 1rpx #808080; */
+  color: #666;
+  float: left;
+  border-radius: 4px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #FAFAFA;
+}
+
+.floor-list .current {
+  color: #B31B1B;
+  /* border-color: #b31b1b; */
+  background-color: #FBF1F1;
+}
+
+.floor-btn {
+  padding-top: 20px;
+}
+
+.floor-btn > button {
+  width: 50%;
+  float: left;
+}
+.sparrow-btn-reset {
+border-radius:0 0 0 20px;
+}
+.sparrow-btn-confirm {
+border-radius:0 0 20px 0;
+}

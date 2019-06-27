@@ -1,0 +1,72 @@
+/* 新品上架 */
+
+.fresh-item {
+  height: 390px;
+  width: 240px;
+  display: inline-block;
+  margin: 0 30px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.fresh-imgbox {
+  font-size: 0;
+  width: 240px;
+  height: 240px;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.fresh-imgbox > image {
+  width: 100%;
+  height: 100%;
+}
+
+.red-price {
+  color: #b31b1b;
+}
+
+.fresh-item .fresh-textbox {
+  font-size: 24px;
+  width: 100%;
+  padding-top: 30px;
+  height: 110px;
+}
+
+.fresh-item .fresh-textbox > text {
+  display: block;
+  height: 76px;
+  line-height: 38px;
+  overflow: hidden;
+  text-overflow: ellipsis !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  white-space: normal;
+  text-align: left;
+}
+
+.fresh-item .fresh-text.red-price {
+  margin-top: 10px;
+  color: #b31b1b;
+}
+
+.fresh-brand {
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(210, 194, 170, 0.8);
+  position: absolute;
+  top: 224px;
+  left: 0;
+  font-size: 20px;
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

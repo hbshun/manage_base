@@ -1,0 +1,49 @@
+/* 热门品牌 */
+.hot-brand-item {
+  height: 380px;
+  width: 320px;
+  max-width: 320px;
+  display: inline-block;
+  margin-right: 30px;
+  margin-left: 30px;
+  text-align: left;
+  font-size: 0;
+  position: relative;
+}
+
+.hot-brand-item .shade-part {
+  height: 240px;
+  width: 320px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hot-brand-item .brand-image{
+  height: 240px;
+  width: 320px;
+  margin-bottom: 10px;
+}
+
+.shade-part image {
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  border-radius: 10px;
+  height: 100px;
+  width: 100px;
+}
+
+.hot-brand-item .brand-text,.hot-brand-item .brand-sub-text {
+  font-size: 24px;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hot-brand-item .brand-sub-text {
+  color: #a0a0a0;
+}

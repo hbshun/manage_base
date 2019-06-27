@@ -1,0 +1,58 @@
+/* login.wxss */
+
+.login-cannotreceive-code {
+  font-size: 24px;
+  text-align: center;
+  color: #576b95;
+  height: 80px;
+  line-height: 80px;
+  margin-top: 20px;
+}
+
+.login-confirm {
+  margin: 90px 20px 0 20px;
+}
+
+.verify-code.login-cannotreceive-code {
+  margin-bottom: 90px;
+}
+
+.height-100 {
+  height: 100px;
+}
+
+.logo-content {
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  /* logo居中显示 */
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100px;
+  margin: 0 auto;
+}
+
+.warning-view {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  color: #999;
+}
+
+.warning-span {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.btn-center {
+  width: 220px;
+  height: 100%;
+  margin: 0 auto;
+}

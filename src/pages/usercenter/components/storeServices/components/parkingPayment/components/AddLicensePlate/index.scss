@@ -1,0 +1,28 @@
+/* pages/usercenter/components/storeServices/components/parkingPayment/components/AddLicensePlate/index.wxss */
+@import '../../../../../../../../common/css/iconfont.scss';
+
+.license-plate-card {
+  box-sizing: border-box;
+  height: 220px;
+  width: 220px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 0 6px;
+}
+
+.icon {
+  height: 142px;
+  line-height: 160px;
+  text-align: center;
+  font-size: 100px;
+  color: #e1e3e5;
+}
+
+.add-button {
+  height: 28px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #404959;
+  text-align: center;
+}

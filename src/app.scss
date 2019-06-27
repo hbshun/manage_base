@@ -1,0 +1,62 @@
+/**app.wxss**/
+@import "./common/css/weui.scss";
+@import "./common/css/iconfont.scss";
+@import "./common/css/common.scss"; 
+@import "./component/shopItem1/shopItem1.scss";
+@import "./component/shopItem2/shopItem2.scss";
+@import "./component/priceBox/priceBox.scss";
+@import "./component/productTitle/productTitle.scss";
+@import "./component/productTitle/productTitleFull.scss";
+@import "./component/redSmallSpan/redSmallSpan.scss";
+@import "./component/chooseFeature/chooseFeature.scss";
+@import "./component/chooseSpan/chooseSpan.scss";
+@import "./component/footer/product.scss";
+@import "./component/service/service.scss";
+@import "./component/activity/activity.scss";
+@import "./component/dialog/dialogService.scss";
+@import "./component/label/red.scss";
+@import "./component/label/orange.scss";
+@import "./component/orderProduct/orderProduct.scss";
+@import "./component/list/brandListItem.scss";
+@import "./component/promotionInfo/promotionInfo.scss";
+@import "./component/returnTop/returnTop.scss";
+@import "./component/returnToHome/returnToHome.scss";
+@import "./component/swiper/swiper.scss";
+@import "./component/QRcode/QRcode.scss";
+@import "./component/getCoupon/index.scss";
+@import "./component/scrollView-3-more/scrollView-3-more.scss";
+@import "./component/carousel-6/carousel-6.scss";
+@import "./component/carousel-2/carousel-2.scss";
+@import "./component/carousel-3/carousel-3.scss";
+@import "./component/tabbar//tabbar.scss";
+
+page {
+  background-color: #f8f8f8;
+} 
+
+.page {
+  background-color: #fff;
+}
+
+.container {
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+  box-sizing: border-box;
+}
+
+.ml-10 {
+  margin-left: 20px;
+}
+
+.mb-25 {
+  margin-bottom: 50px;
+}
+
+.navigator-hover {
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 1;
+}

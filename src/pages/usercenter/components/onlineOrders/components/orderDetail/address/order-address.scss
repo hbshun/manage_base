@@ -1,0 +1,53 @@
+.order-address {
+  height: 165px;
+  display: flex;
+  display: -webkit-flex;
+  background-color: #fff;
+  line-height: 165px;
+}
+
+.order-address .left {
+  color: #666;
+  width: 100px;
+  min-width: 100px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.order-address .right {
+  width: 80px;
+  text-align: center;
+  color: #bababa;
+  min-width: 80px;
+}
+
+.order-address .center {
+  flex-grow: 1;
+  padding-top: 32px;
+}
+
+.personal-info {
+  height: 28px;
+  line-height: 28px;
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+
+.personal-info .name {
+  padding-right: 40px;
+}
+
+.personal-info .number {
+}
+
+.personal-address {
+  color: #666;
+  font-size: 24px;
+  height: 58px;
+  line-height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}

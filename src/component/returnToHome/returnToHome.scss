@@ -1,0 +1,18 @@
+.return-home {
+  position: fixed;
+  height: 80px;
+  line-height: 80px;
+  width: 80px;
+  border-radius: 80px;
+  border: 1px solid transparent;
+  top: 224px;
+  background-color: rgba(0, 0, 0, 0.4);
+  right: 20px;
+  text-align: center;
+  z-index: 10000;
+}
+
+.return-home .icon-navigate-return {
+  font-size: 40px;
+  color: #fff;
+}

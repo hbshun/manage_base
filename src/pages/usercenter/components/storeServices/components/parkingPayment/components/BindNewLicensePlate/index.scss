@@ -1,0 +1,45 @@
+/* pages/usercenter/components/storeServices/components/parkingPayment/components/BindNewLicensePlate/index.wxss */
+@import '../../../../../../../../common/css/iconfont.scss';
+
+.parking-payment {
+  background-color: #f7f7f7;
+}
+
+.tips {
+  position: fixed;
+  width: 100%;
+  bottom: 40px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #69727e;
+  text-align: center;
+}
+
+.query-button {
+  width: 696px;
+  height: 88px;
+  background-color: #b31b1b;
+  border-radius: 10px;
+  font-size: 32px;
+  line-height: 88px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #f6e3e3;
+  margin: 40px auto 40px;
+}
+
+.goback-button {
+  width: 538px;
+  height: 88px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  font-size: 32px;
+  line-height: 88px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #888;
+  margin: 30px auto 40px;
+}

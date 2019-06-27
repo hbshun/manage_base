@@ -1,0 +1,154 @@
+
+.choose-discounts {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+  /* display: none; */
+  max-height: 100vh;
+  overflow: scroll;
+}
+.discounts-info {
+  z-index: 100;
+}
+
+.pink-hit {
+  background-color: #fcf8f2;
+  color: e3ba7d;
+  font-size: 32px;
+  text-align: center;
+  height: 110px;
+  line-height: 110px;
+}
+
+.red-hit {
+  background-color: #b31b1b;
+  height: 100px;
+  line-height: 100px;
+  font-size: 28px;
+  text-align: center;
+  color: #fff;
+}
+
+.dis-line {
+  background-color: #fff;
+  padding-left: 30px;
+}
+
+.dis-line.not-use {
+  background-color: #f7f7f7;
+  border-top:2px solid #fff;
+}
+
+.dis-line.not-use .dis-item {
+  border-top: none;
+}
+
+.dis-item {
+  padding-right: 30px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.discounts-info .dis-line:first-child .dis-item {
+  border-top: 0;
+} 
+
+.dis-avai {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.dis-item .text-14 {
+  font-size: 28px;
+  margin-right: 30px; 
+}
+
+.dis-line.not-use .text-14{
+   color: #9f9f9f;
+ }
+
+.dis-item .text-12 {
+  font-size: 24px;
+  color: #666;
+}
+
+.dis-avai .icon-choose{
+  color: #b31b1b;
+  font-size: 44px;
+  float: right;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+}
+
+.dis-avai .icon-not-choose {
+  color: #e6e6e6;
+  float: right;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-size: 40px;
+}
+
+.dis-avai .icon-disable {
+  color: #e6e6e6;
+  float: right;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-size: 40px;
+}
+
+.dis-use {
+  height: 70px;
+  line-height: 70px;
+  display: flex;
+  display: -webkit-flex;
+  /* margin-bottom:35rpx; */
+  padding-bottom: 35px;
+}
+
+.dis-use-num {
+  height: 70px;
+  width: 175px;
+  background-color: #f7f7f7;
+  font-size: 24px;
+  display: inline-block;
+  border-radius: 6px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.dis-use .text-red {
+  color: #b31b1b;
+  font-size: 24px;
+  float: right;
+  flex-grow:1;
+  text-align:right;
+}
+
+.mask-in {
+  position: fixed;
+  background-color: #000;
+  filter: alpha(Opacity=60);
+  -moz-opacity:0.6;
+  opacity: 0.6;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  /* display: none; */
+}
+
+.confirm-button {
+  height: 50px;
+  width: 100px;
+  line-height: 50px;
+  border: 2px solid #ccc;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 6px;
+  margin-top: 10px;
+  margin-left: 20px;
+}

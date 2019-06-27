@@ -1,0 +1,51 @@
+.product-title-full {
+  
+}
+
+.product-title-main {
+  display: flex;
+  align-items: center;
+}
+
+.product-title-maintitle {
+  flex: 1;
+  padding-right: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: #333;
+  font-size: 32px;
+  min-height: 32px;
+  line-height: 40px;
+}
+
+.product-title-subhead {
+  padding-top: 20px;
+  color: #999;
+  font-size: 24px;
+  height: 24px;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.product-title-collect {
+  padding-left: 30px;
+  text-align: center;
+  border-left: solid 2px #e5e5e5;
+  line-height: 1.5em;
+}
+
+.product-title-collect i {
+  display: block;
+  font-size: 48px;
+  color: #999;
+}
+
+.product-title-collect text {
+  font-size: 24px;
+  color: #999;
+}

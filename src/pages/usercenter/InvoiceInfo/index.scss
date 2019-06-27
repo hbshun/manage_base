@@ -1,0 +1,39 @@
+/* pages/usercenter/components/storeServices/components/shoppingRecord/components/InvoiceInfo/index.wxss */
+
+.invoice-title-content {
+  margin: 60px 30px;
+  display: flex;
+}
+
+.invoice-icon {
+  flex: 1;
+  display: inline-flex;
+  height: 50px;
+  margin: 8px 0;
+}
+
+.invoice-title {
+  flex: 10;
+  display: inline-flex;
+  font-size: 48px;
+  font-weight: 600;
+  height: 67px;
+  line-height: 67px;
+  color: #333;
+}
+
+.invoice-content {
+  margin-top: 100px;
+}
+
+.weui-cells__title {
+  color: #333;
+}
+
+.send-sms {
+  margin-top: 100px;
+}
+
+.confirm-button {
+  margin-top: 180px;
+}

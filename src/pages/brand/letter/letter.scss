@@ -1,0 +1,157 @@
+/**/
+
+.letter-head {
+  font-size: 28px;
+  height: 80px;
+  line-height: 80px;
+  background-color: #f7f7f7;
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 101;
+}
+
+.letter-head-item {
+  width: 50%;
+  float: left;
+  height: 80px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  /* border-bottom: solid 1px #e6e6e6; */
+}
+
+.letter-head-item.current {
+  background-color: #fff;
+  color: #b31b1b;
+  border-bottom-color: #fff;
+}
+
+.brand-box {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.letter-scroll {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.letter-box {
+  width: 32px;
+  padding: 100px 40px 0 40px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 200;
+}
+
+.brand-list-item {
+  padding-top: 44px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.letter-item {
+  width: 32px;
+  height: 32px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 50%;
+}
+
+.letter-box .current {
+  color: #fff;
+  background-color: #e3ba7d;
+}
+
+.letter-item .icon-santiao {
+  font-size: 24px;
+}
+
+.letter-show-value {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 100px;
+  right: 120px;
+}
+
+.letter-show-value > text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 60px;
+  height: 60px;
+  z-index: 20;
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.letter-show-value > i {
+  position: absolute;
+  top: -32px;
+  left: -6px;
+  width: 92px;
+  height: 80px;
+  z-index: 10;
+  font-size: 80px;
+  color: #e6e6e6;
+}
+
+.brand-item {
+  box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 0;
+  border-bottom: solid 1px #f7f7f7;
+}
+
+.brand-item-img {
+  width: 144px;
+  height: 144px;
+}
+
+.brand-head {
+  box-sizing: border-box;
+  width: 100%;
+  height: 44px;
+  padding-left: 30px;
+  line-height: 44px;
+  background-color: #f7f7f7;
+  font-size: 40px;
+  color: #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.brand-head.current {
+  color: #e3ba7d;
+  /* position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10; */
+}
+
+.brand-nomore {
+  color: #999;
+  text-align: center;
+  /*padding-top: 20rpx;*/
+  font-size: 28px;
+}

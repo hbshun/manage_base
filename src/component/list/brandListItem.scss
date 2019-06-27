@@ -1,0 +1,140 @@
+.brand-item {
+  margin-bottom: 20px;
+  padding: 24px 0 24px 30px;
+  background-color: #fff;
+}
+
+.page-cart .brand-item{
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+
+.brand-item::before {
+  display: none;
+}
+
+.brand-item-img {
+  width: 144px;
+  height: 144px;
+  border: solid 1px #f7f7f7;
+  margin-right: 30px;
+}
+
+.brand-item-content {
+  /* max-width: 90%; */
+  width: 620px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.brand-item .icon-address {
+  color: #e3ba7d;
+}
+
+.brand-phone {
+  width: 100px;
+  height: 76px;
+  box-sizing: border-box;
+  border-left: solid 1px #ccc;
+  padding: 4px 30px;
+}
+
+.weui-media-box__bd .display-flex{
+  display: flex;
+}
+
+.display-flex .flex-grow-1 {
+  flex-grow: 1;
+}
+
+.brand-phone .icon-phone {
+  font-size: 40px;
+  color: #666;
+  float: right;
+}
+
+.brand-arrows {
+  margin-right: -10px;
+}
+
+.brand-arrows .icon-enter {
+  font-size: 44px;
+  color: #ccc;
+}
+
+.brand-none {
+  width: 60px;
+  height: 60px;
+}
+
+.brand-new {
+  display: inline-block;
+  width: 72px;
+  height: 52px;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-left: 10px;
+  vertical-align: top;
+}
+
+.brand-new .icon-new-brand {
+  font-size: 72px;
+  color: #b31b1b;
+  position: absolute;
+  top: -34px;
+  left: 0;
+}
+
+.item-arrows {
+  margin-bottom: 0;
+  padding-right: 30px;
+}
+
+/* .item-arrows::before {
+  content: " ";
+  position: absolute;
+  left: 15px;
+  top: 0;
+  right: 0;
+  height: 1px;
+  border-top: 1px solid #e5e5e5;
+  color: #e5e5e5;
+  transform-origin: 0 0;
+  transform: scaleY(0.5);
+  z-index: 2;
+} */
+
+.weui-media-box__title {
+  font-size: 28px;
+  height: 44px;
+}
+
+.position-re.weui-media-box__desc{
+  position: relative;
+  overflow: visible;
+}
+
+.brand-item-content .brand-category {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 70%;
+}
+
+.position-re .online-sale {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  display: inline-block;
+}
+
+.online-sale .icon-online-product {
+  color: #ccc;
+  font-size: 28px;
+  margin-right: 10px;
+}

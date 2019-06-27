@@ -1,0 +1,28 @@
+/* pages/usercenter/components/userInfo/components/couponList/index.wxss */
+
+.coupon-list {
+  margin-top: 100px;
+}
+
+.navbar-content {
+  display: flex;
+  height: 110px;
+  line-height: 110px;
+  font-size: 28px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar-item {
+  flex: 1;
+}
+
+.no_more_coupon {
+  width: 100%;
+  height: 180px;
+  line-height: 120px;
+  text-align: center;
+  font-size: 24px;
+  color: #666;
+  font-weight: 400;
+}

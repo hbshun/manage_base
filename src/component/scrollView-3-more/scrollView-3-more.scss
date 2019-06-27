@@ -1,0 +1,120 @@
+.scroll-item.scroll-view-3-more {
+  clear: both;
+}
+
+.scroll-view-3-more .scroll-view_H.height-400 {
+  height: 340px;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.scroll-view-3-more .product-data-item {
+  height: 340px;
+  width: 200px;
+  max-width: 200px;
+  display: inline-block;
+  /* margin-right: 30rpx; */
+  margin-left: 30px;
+  text-align: left;
+  font-size: 0;
+  background-color: #fff;
+}
+
+.scroll-view-3-more .product-data-item image {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.scroll-view-3-more .discount-span {
+  height: 40px; 
+  line-height: 40px; 
+  overflow: hidden;
+}
+
+.scroll-view-3-more .brand-product-text {
+  font-size: 20px;
+  width: 100%;
+  max-width: 100%;
+  height: 56px;
+  line-height: 28px;
+  max-height: 56px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:2;
+  white-space:normal;
+}
+
+.scroll-view-3-more .brand-product-price-text {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 20px;
+  height: 32px;
+  line-height: 32px;
+}
+
+.scroll-view-3-more .new-price{
+  color:#b31b1b;
+  height: 40px;
+  font-size: 24px;
+}
+
+.scroll-view-3-more .old-price{
+  color:#999;
+  padding-left: 10px;
+  font-size: 20px;
+  text-decoration:line-through;
+}
+
+.scroll-view-3-more .product-red-small-span {
+  border: 2px solid #b31b1b;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 0 8px;
+  color:#b31b1b;
+  height: 26px;
+  line-height: 26px;
+  margin-top: 4px;
+  margin-right: 16px;
+  display: inline-block;
+}
+
+.scroll-view-3-more .transparent-product-red-small-span {
+  border: 2px solid transparent;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 0 8px;
+  color: transparent;
+  height: 26px;
+  line-height: 26px;
+  margin-top: 10px;
+  margin-right: 16px;
+  display: inline-block;
+}
+
+.scroll-view-3-more .brand-prod-img, .scroll-view-3-more .recommend-prod-img{
+  position: relative;
+}
+
+.scroll-view-3-more .brand-prod-img .sparrow-icon.icon-sell-out {
+
+  font-size:96px;
+  line-height:150px;
+  border-radius:150px;
+  background-color:rgba(0,0,0,0.6);
+  color:#fff;
+  position:absolute;
+  left:0;
+  text-align:center;
+  top:0;
+  bottom: 0;
+  width:150px;
+  height:150px;
+  right:0;
+  margin:auto auto;
+}

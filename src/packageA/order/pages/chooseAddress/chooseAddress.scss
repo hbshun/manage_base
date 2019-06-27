@@ -1,0 +1,189 @@
+
+page {
+  min-height: 100%;
+  background-color: #e6e7eb;
+}
+
+.address-list {
+  padding-bottom: 130px;
+}
+
+.address-manage-btn {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+
+.address-manage-btn .btn-white {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background-color: #fff;
+  font-size: 28px;
+  width: 50%;
+}
+
+.address-manage-btn .btn-red {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background-color: #b31b1b;
+  font-size: 28px;
+  width: 50%;
+  color: #fff;
+}
+
+/*choose*/
+.address-list .choose {
+  padding-left: 30px;
+  background-color: #fff;
+  padding-right: 30px;
+}
+
+.address-list .choose-item {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: flex;
+  display: -webkit-flex;
+  border-bottom: 2px solid #d2d2d2;
+}
+
+.address-list .choose-item:last-child {
+  border-bottom: none;
+}
+
+.choose-btn {
+  width: 100px;
+  text-align: center;
+  min-width: 100px;
+  position: relative;
+}
+
+.address-info {
+  flex-grow:1;
+}
+
+.personal-info {
+  height: 28px;
+  line-height: 28px;
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+
+.personal-info .name {
+  float: left;
+}
+
+.personal-info .number {
+  float: right;
+}
+
+.personal-address {
+  color: #666;
+  font-size: 24px;
+  height: 58px;
+  line-height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.choose-btn .icon-choose {
+  color: #b31b1b;
+  position: absolute;
+  height: 44px;
+  width: 44px;
+  line-height: 44px;
+  left: 50%;
+  margin-left: -22px;
+  top: 50%;
+  margin-top: -22px;
+}
+
+.choose-btn .icon-not-choose {
+  color: #e6e6e6;
+  font-size: 44px;    
+  position: absolute;
+  height: 44px;
+  width: 44px;
+  line-height: 44px;
+  left: 50%;
+  margin-left: -22px;
+  top: 50%;
+  margin-top: -22px;
+}
+
+.personal-address .default-address{
+  color: #b31b1b;
+  margin-right: 10px;
+}
+
+.manage .manage-item {
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.manage .manage-item:last-child {
+  margin-bottom: 0;
+}
+
+.manage-item .address-info {
+  padding: 34px 30px;
+  border-bottom: 2px dashed #dadada;
+}
+
+.manage-line {
+  height: 60px;
+  line-height: 60px;
+  padding: 18px 30px;
+}
+
+.choose-default {
+  float: left;
+  display: table;
+}
+
+.choose-default .icon-not-choose {
+  display: table-cell;
+  vertical-align: middle;
+  margin-right: 10px;
+  color: #e6e6e6;
+  font-size: 44px; 
+}
+
+.choose-default .icon-choose {
+  display: table-cell;
+  vertical-align: middle;
+  margin-right: 10px;
+  color: #b31b1b;
+  font-size: 44px; 
+}
+
+.choose-default span {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 24px;
+  text-indent: 10px;
+}
+
+.manage-btn {
+  float: right;
+}
+
+.manage-btn .edit-btn, .manage-btn .delete-btn {
+  width: 130px;
+  height: 52px;
+  border: 2px solid #ccc;
+  border-radius: 6px; 
+  font-size: 24px;
+  display: inline-block;
+  text-align: center;
+  line-height: 52px;
+}
+
+.manage-btn .edit-btn {
+  margin-right: 20px;
+}

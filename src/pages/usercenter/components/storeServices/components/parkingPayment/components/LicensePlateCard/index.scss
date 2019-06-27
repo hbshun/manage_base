@@ -1,0 +1,31 @@
+/* pages/usercenter/components/storeServices/components/parkingPayment/components/LicensePlateCard/index.wxss */
+@import '../../../../../../../../common/css/iconfont.scss';
+
+.license-plate-card {
+  box-sizing: border-box;
+  height: 220px;
+  width: 220px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 0 6px;
+  overflow: none;
+}
+
+.license-plate-value {
+  height: 172px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 172px;
+  text-align: center;
+  color: #404959;
+}
+
+.delete-button {
+  margin: 0 auto;
+  height: 48px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #797f8a;
+  text-align: center;
+}

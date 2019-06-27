@@ -1,0 +1,46 @@
+@import './../introduction/introduction.scss';
+@import './../activity/activity.scss';
+@import './../activity/activeDetail/activeDetail.scss';
+@import './../selectItem/selectItem.scss';
+@import './../productList/productList.scss';
+
+.main-brand {
+  background-color: #f7f7f7;
+}
+
+.main-brand:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* 给页面顶部增加一个高度，高度根据筛选栏和搜索栏决定 */
+.setForSearch{
+  width:100%; 
+  display: block;
+}
+
+/* 修改返回主页的图标位置 */
+
+.return-home {
+  position: fixed;
+  top: 280px;
+}
+
+.no-product {
+  width: 100vw;
+  height: 100vh;
+  font-size: 24px;
+}
+
+.show_search_nothing {
+  width: 100vw;
+  text-align: center;
+  display: inline-block;
+}
+
+.show_search_nothing image {
+  width: 150px;
+  height:144px;
+  margin-top: 370px;
+}

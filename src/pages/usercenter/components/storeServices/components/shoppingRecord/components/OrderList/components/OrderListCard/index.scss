@@ -1,0 +1,53 @@
+/* pages/usercenter/components/storeServices/components/shoppingRecord/components/OrderList/components/OrderListCard/index.wxss */
+
+.order-list-card {
+  background-color: #fff;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  /* border-top: 1rpx solid #eee; */
+  /* border-bottom: 1rpx solid #eee; */
+}
+
+.order-info {
+  border-bottom: 1px solid #f7f7f7;
+  padding: 30px;
+}
+
+.order-info-item {
+  display: flex;
+}
+
+.shop-name {
+  flex: 1;
+  font-size: 26px;
+}
+
+.total-amount {
+  flex: 1;
+  font-size: 32px;
+  text-align: right;
+  font-weight: 600;
+}
+
+.create-time {
+  flex: 1;
+  font-size: 24px;
+  color: #888;
+}
+
+.point {
+  flex: 1;
+  font-size: 24px;
+  text-align: right;
+  color: #888;
+}
+
+.open-invoice {
+  height: 80px;
+  line-height: 80px;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #b31b1b;
+}

@@ -1,0 +1,104 @@
+/* pages/usercenter/index/index.wxss */
+@import '../components/userInfo/index.scss';
+
+page {
+  background-color: #f7f7f7;
+}
+
+.page {
+  background-color: #f7f7f7;
+}
+
+.components-body {
+  width: 710px;
+  height: 287px;
+  background-color: #fff;
+  margin: 30px 20px;
+  border-radius: 20px;
+}
+
+.components-title {
+  display: flex;
+  height: 100px;
+  line-height: 100px;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #1e1e1e;
+  text-indent: 30px;
+  border-radius: 20px 20px 0 0;
+}
+
+.title-right {
+  flex: 1;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: right;
+  color: #cdbba1;
+  letter-spacing: 1px;
+}
+
+.icon-enter {
+  font-size: 20px;
+  color: #cdbba1;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.grids {
+  height: 187px;
+  background-color: #fff;
+  display: flex;
+  border-radius: 0 0 20px 20px;
+}
+
+.grid-item {
+  height: 187px;
+  text-align: center;
+  flex: 1;
+  position: relative;
+}
+
+.grid-icon {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 44px;
+  border-radius: 80px;
+  color: #828488;
+  background-color: #f7f7f7;
+  margin: 20px auto 0 auto;
+}
+
+.grid-label {
+  height: 33px;
+  line-height: 33px;
+  font-size: 24px;
+  margin: 12px auto;
+}
+
+.logout {
+  width: 710px;
+  height: 88px;
+  text-align: center;
+  line-height: 88px;
+  margin: 150px 20px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 28px;
+  color: #cdbba1;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.copy-right {
+  width: 710px;
+  height: 80px;
+  text-align: center;
+  line-height: 28px;
+  margin: 40px auto;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ccc;
+  letter-spacing: 1px;
+}

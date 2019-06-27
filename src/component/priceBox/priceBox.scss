@@ -1,0 +1,27 @@
+.price-box {
+  padding-top: 20px;
+}
+
+.price-selling {
+  color: #b21b1b;
+  font-size: 36px;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+}
+
+.price-selling > .i, .price-original > .i, .price-original > .em{
+  font-size: 24px;
+  font-style: inherit;
+}
+
+.price-original {
+  color: #999999;
+  padding-left: 20px;
+  font-size: 24px;
+  display: inline-block;
+}
+
+.price-original > .em {
+  text-decoration: line-through;
+}

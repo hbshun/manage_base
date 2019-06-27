@@ -1,0 +1,143 @@
+
+page {
+  min-height: 100%;
+  background-color: #fafafa;
+}
+
+.pro-info {
+  padding-top: 34px;
+  flex-grow: 1;
+  border-top: 2px solid #d9d9d9;
+  margin-bottom: 20px;
+}
+
+.pro-left, .pro-left image {
+  width: 180px;
+  height: 180px;
+  position: relative;
+}
+
+.pro-right {
+  flex-grow: 1;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.pro-section1 {
+  display: flex;
+  display: -webkit-flex;
+  margin: 30px 0 30px 30px; 
+}
+
+.pro-name {
+  font-size: 28px;
+  min-height: 50px;
+  line-height: 50px;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.text-red {
+  color: #b31b1b;
+  font-size: 28px;
+  height: 28px;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+.dec-name{
+  font-size: 24px;
+  color: #555;
+  height: 50px;
+  line-height: 50px;
+}
+
+.promotions-body {
+  padding-left: 30px;   
+  background-color: #fff;
+  margin-bottom: 100px;                                                                              
+}
+
+.confirm {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  background-color: #b52020;
+  font-size: 28px;
+  line-height: 100px;
+  text-align: center;
+  color: #fff;
+  bottom: 0;  
+}
+
+.activity-box {
+  padding-left:0;
+  align-items:initial;
+  font-size:24px;
+  min-height:50px;
+  line-height:50px;
+}
+
+.promotions-body {
+
+}
+
+.activity-box .weui-cell__ft {
+  width: 100px;
+}
+
+.activity-box::before {
+  left: 0;
+} 
+
+.activity-title {
+  display: flex;
+}
+
+.activity-title-l {
+  display: block;
+}
+
+.activity-title-r {
+  flex: 1;
+}
+
+.activity-image-text {
+  padding-top: 20px;
+  display: flex;
+}
+
+.activity-image-text image {
+  width: 160px;
+  height: 160px;
+  border: solid 2px #e5e5e5;
+}
+
+.activity-image-text view {
+  margin-left: 10px;
+  flex: 1;
+}
+
+.activity-box .weui-cell__ft_in-access::after {
+  top: 24px;
+  border-color: #ccc;
+}
+
+.sparrow-icon.icon-choose, .sparrow-icon.icon-not-choose, .sparrow-icon.icon-disable {
+  font-size: 44px;
+  margin-right: 20px;
+  color: #e6e6e6;
+}
+
+.sparrow-icon.icon-choose {
+  color: #b52020;
+}
+
+.promotions-body .weui-cell_ft {
+  color: #e5bf86;  
+}
