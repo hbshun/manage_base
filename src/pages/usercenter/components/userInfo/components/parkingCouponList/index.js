@@ -4,7 +4,7 @@ import withWeapp from '@tarojs/with-weapp'
 // pages/usercenter/components/userInfo/components/parkingCouponList/index.js.js
 import util from '../../../../../../utils/util.js'
 import constant from '../../../../../../config/constant.js'
-import moment from '../../../../../../common/js/moment.js'
+import moment from 'moment'
 import DisabledCouponCard from '../disabledCouponCard/index'
 import CouponCard from '../couponCard/index'
 import './index.scss'

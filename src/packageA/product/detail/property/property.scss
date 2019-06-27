@@ -1,0 +1,31 @@
+.property {
+  /* margin-top: 20rpx; */
+  padding: 0 30px 30px 30px;
+  background-color: #fff;
+  padding-bottom: 900px;
+}
+
+.property-box {
+  padding-top: 2px;
+}
+
+.property-item {
+  border-top: dotted 2px #d2d2d2;
+  padding: 15px 0;
+}
+
+.property-item-l {
+  width: 110px;
+  padding-right: 40px;
+  font-size: 24px;
+  color: #999;
+  float: left;
+}
+
+.property-item-r {
+  width: 540px;
+  font-size: 24px;
+  color: #333;
+  float: right;
+  word-wrap: break-word;
+}

@@ -4,14 +4,14 @@ import withWeapp from '@tarojs/with-weapp'
 import util from '../../utils/util.js'
 // import qs from '../../utils/qs/index.js';
 // import constant from '../../config/constant.js';
-// import searchModule from 'module/searchModule/searchModule.js';
-// import swiperModule from 'module/swiperModule/swiperModule.js';
-// import freshModule from 'module/freshModule/freshModule.js';
-// import topicModule from 'module/topicModule/topicModule.js';
-// import flashsaleModule from 'module/flashsaleModule/flashsaleModule.js';
-// import hotBrandModule from 'module/hotBrandModule/hotBrandModule.js';
-// import hotProductModule from 'module/hotProductModule/hotProductModule.js';
-// import skuListModule from 'module/skuListModule/skuListModule.js';
+// import searchModule from './module/searchModule/searchModule.js';
+// import swiperModule from './module/swiperModule/swiperModule.js';
+// import freshModule from './module/freshModule/freshModule.js';
+// import topicModule from './module/topicModule/topicModule.js';
+// import flashsaleModule from './module/flashsaleModule/flashsaleModule.js';
+// import hotBrandModule from './module/hotBrandModule/hotBrandModule.js';
+// import hotProductModule from './module/hotProductModule/hotProductModule.js';
+// import skuListModule from './module/skuListModule/skuListModule.js';
 // import returnTop from '../../component/returnTop/returnTop.js';
 // import getCouponModel from '../../component/getCoupon/index.js';
 
@@ -567,7 +567,7 @@ class _C extends Taro.Component {
             }}
           ></ReturnToHomeTmpl>
           {/*  <template is="tabbar" data="{{tabbar}}"/>  */}
-          {/*  <block wx:if="isLoading!=''">
+          {/*  <block wx:if="{{isLoading!=''}}">
                                                                                         <view class="list-foot">
                                                                                           <block wx:if="{{isLoading=='nomore'}}">没有更多了</block>
                                                                                           <block wx:else>加载中...</block>

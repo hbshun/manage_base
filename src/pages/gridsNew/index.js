@@ -13,7 +13,7 @@ import {
 } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import withWeapp from '@tarojs/with-weapp'
-import grids from 'grids.js'
+import grids from './grids.js'
 import util from '../../utils/util.js'
 
 import Csearch from '../../component/c-search/c-search'
@@ -239,7 +239,7 @@ class _C extends Taro.Component {
             }}
           ></ReturnToHomeTmpl>
           {/*  <template is="tabbar" data="{{tabbar}}"/>  */}
-          {/*  <block wx:if="isLoading!=''">
+          {/*  <block wx:if="{{isLoading!=''}}">
                                                                                         <view class="list-foot">
                                                                                           <block wx:if="{{isLoading=='nomore'}}">没有更多了</block>
                                                                                           <block wx:else>加载中...</block>

@@ -30,7 +30,7 @@ class _C extends Taro.Component {
           <View className="userInfo">
             <Image
               className="avatar"
-              src={require('../images/gift.png')}
+              src={require('../../image/to20years.png')}
               alt
             ></Image>
             <Span className="username">啦啦啦啦啦</Span>
@@ -41,7 +41,7 @@ class _C extends Taro.Component {
           <View className="userInfo">
             <Image
               className="avatar"
-              src={require('../images/gift.png')}
+              src={require('../../image/to20years.png')}
               alt
             ></Image>
             <Span className="username">啦啦啦啦啦</Span>
@@ -52,7 +52,7 @@ class _C extends Taro.Component {
           <View className="userInfo">
             <Image
               className="avatar"
-              src={require('../images/gift.png')}
+              src={require('../../image/to20years.png')}
               alt
             ></Image>
             <Span className="username">啦啦啦啦啦</Span>
@@ -63,7 +63,7 @@ class _C extends Taro.Component {
           <View className="userInfo">
             <Image
               className="avatar"
-              src={require('../images/gift.png')}
+              src={require('../../image/to20years.png')}
               alt
             ></Image>
             <Span className="username">啦啦啦啦啦</Span>
@@ -74,7 +74,7 @@ class _C extends Taro.Component {
           <View className="userInfo">
             <Image
               className="avatar"
-              src={require('../images/gift.png')}
+              src={require('../../image/to20years.png')}
               alt
             ></Image>
             <Span className="username">啦啦啦啦啦</Span>
@@ -85,7 +85,7 @@ class _C extends Taro.Component {
           <View className="userInfo">
             <Image
               className="avatar"
-              src={require('../images/gift.png')}
+              src={require('../../image/to20years.png')}
               alt
             ></Image>
             <Span className="username">啦啦啦啦啦</Span>
@@ -96,7 +96,7 @@ class _C extends Taro.Component {
           <View className="userInfo">
             <Image
               className="avatar"
-              src={require('../images/gift.png')}
+              src={require('../../image/to20years.png')}
               alt
             ></Image>
             <Span className="username">啦啦啦啦啦</Span>
@@ -107,7 +107,7 @@ class _C extends Taro.Component {
           <View className="userInfo">
             <Image
               className="avatar"
-              src={require('../images/gift.png')}
+              src={require('../../image/to20years.png')}
               alt
             ></Image>
             <Span className="username">啦啦啦啦啦</Span>
@@ -118,7 +118,7 @@ class _C extends Taro.Component {
           <View className="userInfo">
             <Image
               className="avatar"
-              src={require('../images/gift.png')}
+              src={require('../../image/to20years.png')}
               alt
             ></Image>
             <Span className="username">啦啦啦啦啦</Span>

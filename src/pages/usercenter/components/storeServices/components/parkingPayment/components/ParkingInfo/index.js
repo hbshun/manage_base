@@ -4,7 +4,7 @@ import withWeapp from '@tarojs/with-weapp'
 // pages/usercenter/components/storeServices/components/parkingPayment/components/ParkingInfo/index.js
 import util from '../../../../../../../../utils/util.js'
 import constant from '../../../../../../../../config/constant.js'
-import moment from '../../../../../../../../common/js/moment.js'
+import moment from 'moment'
 import './index.scss'
 
 @withWeapp('Page')

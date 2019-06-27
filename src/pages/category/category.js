@@ -4,7 +4,7 @@ import withWeapp from '@tarojs/with-weapp'
 // pages/category/category.js
 import util from '../../utils/util.js'
 import constant from '../../config/constant.js'
-import searchModule from 'module/searchModule/searchModule'
+import searchModule from './module/searchModule/searchModule.js'
 import GIO_utils from '../../utils/GIO_utils.js'
 import './category.scss'
 const app = Taro.getApp()

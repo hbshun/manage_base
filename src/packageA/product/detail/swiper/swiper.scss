@@ -1,0 +1,39 @@
+.swiper-out {
+  position: relative;
+}
+
+swiper {
+  height: 750px;
+}
+
+.swiper-item {
+  display: block;
+  height: 750px;
+  width: 100%;
+  /*position: relative;*/
+  align-items: center;
+  justify-content: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.swiper-item-current {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+}
+
+.swiper-item > image {
+  width: 100%;
+  height: 100%;
+}

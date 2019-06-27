@@ -3,11 +3,11 @@ import Taro from '@tarojs/taro'
 import withWeapp from '@tarojs/with-weapp'
 //app.js
 
-import util from 'utils/util'
-import qs from 'utils/qs/index.js'
-import constant from 'config/constant'
-import gio from 'utils/growingio/gio-minp.js'
-import GIO_utils from 'utils/GIO_utils.js'
+import util from './utils/util.js'
+import qs from './utils/qs/index.js'
+import constant from './config/constant.js'
+import gio from './utils/growingio/gio-minp.js'
+import GIO_utils from './utils/GIO_utils.js'
 
 import './app.scss'
 gio('init', '9b7076f9688924d3', 'wx5c8a9897143b0cf8', {

@@ -1,0 +1,368 @@
+
+page {
+  background-color: #f7f7f7;
+}
+
+.page {
+  font-family: "Microsoft Yahei"
+}
+
+/*搜索栏*/
+.weui-search-bar__form {
+  height: 66px;
+}
+
+.weui-search-bar {
+  background-color: #f0f0f0;
+  border: none;
+}
+
+.icon-personal-shopping-cart {
+  margin-top: 12px;
+  margin-left: 24px;
+  display: inline-block;
+}
+
+.list-icon {
+  width: 64px;
+  color: #666;
+  background-color: #f0f0f0;
+}
+
+.list-page .weui-icon-search_in-box {
+  top: 20px;
+}
+
+.list-page .weui-search-bar__input {
+  height: 66px;
+  line-height: 66px;
+} 
+
+.list-page .weui-icon-clear {
+  top: 6px;
+}
+
+/*导航栏*/
+.tab {
+  height:90px;
+  background-color:#f7f7f7;
+  display:flex;
+}
+
+.nav-bar {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 28px;
+  padding-right: 28px;
+  flex: 1;
+  font-size: 28px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+}
+
+.current-tab {
+  background-color: #fff;
+  color: #b52020;
+}
+
+.choose-tab {
+  color: #b52020;
+}
+
+current-tab {
+  background-color: #fff;
+  color: #b52020;
+}
+
+.arrange-span{
+  text-align:center;
+  margin:0 20px;
+  border:2px solid #808080;
+  padding:6px 8px;
+  font-size:24px;
+  border-radius:6px;
+  color:#666;
+}
+
+.arrange-red {
+  color:#b52020;
+  border-color:#b52020;
+}
+
+.tab-panel {
+  position:absolute;
+  background-color:#fff;
+  width:100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.price-field {
+  margin-left: 30px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.price-field-word {
+  height: 64px;
+  line-height: 64px;
+  font-size: 28px;
+  display: inline-block;
+}
+
+.price-field-input-div {
+  font-size: 0;
+  float: right;
+  margin-right: 30px;
+}
+
+.price-field-input {
+  height: 60px;
+  width: 128px;
+  background-color: #f5f5f5;
+  border: 2px solid #f5f5f5;
+  border-radius: 6px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: inline-block;
+  font-size: 24px;
+  font-family: "Microsoft YaHei";
+}
+
+.price-field-input-div span{
+  color: #7a7a7a;
+  display: inline-block;
+  height: 60px;
+  width: 10px;
+  font-size: 24px;
+  margin: 0 10px;
+  overflow: hidden;
+  line-height: 60px;
+
+}
+
+.filter-div {
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+}
+
+.tab-mask-in{
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.6);
+}
+
+
+.tab-mask-in2{
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.6);
+}
+
+.page__bd, .page_tab {
+  position: relative;
+  z-index: 100;
+}
+
+.search-mask-in{
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.6); 
+}
+
+.shopItem1-out .shopItem:last-child .shopMessage{
+  border-bottom: none;
+}
+
+.shopItem1-out {
+  border-bottom: 2px solid #e6e6e6;
+}
+
+.list-foot {
+  height: 110px;
+  font-size: 24px;
+  color: #d2d2d2;
+  text-align: center;
+  line-height: 110px;
+  background-color: #f7f7f7;
+  clear: both;
+  padding-bottom: 100px;
+}
+
+.activityInfo .weui-cells::before {
+  border-top: none;
+}
+
+.activityInfo .weui-cells::after {
+  border-bottom: none;
+}
+
+.activityInfo .weui-cells {
+  background-color: #fffbed;
+}
+
+.activityInfo .weui-cell__ft {
+  color: #e9c793;
+  font-size: 24px;
+}
+
+.activityInfo .weui-cell__bd {
+  font-size: 24px;
+  color: #555;
+}
+
+.activityInfo .activity-type {
+  color: #fb3333;
+  margin: 0 10px;
+}
+.promotion-bottom {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  display: -webkit-flex;
+  height: 100px;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  z-index: 101
+}
+
+.product-btn {
+  flex-grow: 1;
+  height: 100%;
+  background-color: #fff;
+  padding-left: 30px;
+  padding-right: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.product-btn.font-center {
+  text-align: center;
+  line-height: 100px;
+}
+
+.main-info {
+  font-size: 26px;
+  height: 26px;
+  line-height: 26px;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sub-info {
+  font-size: 24px;
+  height: 24px;
+  line-height: 24px;
+  color: #666;
+}
+
+.gift-btn {
+  width: 180px;
+  min-width: 180px;
+  height: 100%;
+  font-size: 28px;
+  line-height: 100px;
+  text-align: center;
+  background-color: #eee;
+}
+
+.return-btn {
+  min-width: 180px;
+  width: 180px;
+  height: 100%;
+  font-size: 28px;
+  color: #fff;
+  background-color: #b31b1b;
+  line-height: 100px;
+  text-align: center;
+}
+
+.product-gift {
+  padding-bottom: 100px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 101;
+  height: 700px;
+  /* overflow-y: scroll; */
+  padding-top: 104px;
+}
+
+.product-gift .just-product {
+  overflow-y: scroll;
+}
+
+.close-popup {
+  /* padding: 30rpx; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 44px;
+  line-height: 44px;
+  /* display: flex; */
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.product-gift .close-popup .label-red {
+  margin-left: 30px;
+}
+
+.activity-info {
+  margin-left: 20px;
+  font-size: 28px;
+}
+
+.product-gift .sparrow-icon.icon-close {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  right: 30px;
+  text-align: center;
+  color: #999;
+  font-size: 40px;
+}
+
+.gift-item .sparrow-icon.icon-choose,.gift-item .sparrow-icon.icon-not-choose,.gift-item .sparrow-icon.icon-disable {
+  top: 40px;
+}
+
+.product-gift .brand-product {
+  border-bottom: none;
+  overflow-y: scroll;
+  max-height: 700px;
+}
+
+
+
+
+
+
+
+
+

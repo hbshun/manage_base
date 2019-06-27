@@ -1,6 +1,6 @@
 const config = {
   projectName: 'taroConvert',
-  date: '2019-6-27',
+  date: '2019-6-28',
   designWidth: 750,
   deviceRatio: {
     '640': 2.34 / 2,

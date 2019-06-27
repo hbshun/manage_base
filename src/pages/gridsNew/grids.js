@@ -4,9 +4,9 @@ import util from '../../utils/util.js'
 import constant from '../../config/constant.js'
 import returnToHome from '../../component/returnToHome/returnToHome.js'
 import getCouponModel from '../../component/getCoupon/index.js'
-import showSearch from 'module/showSearch/showSearch.js'
-import brandList from 'module/brandList/brandList.js'
-import displayImageCarousel from 'module/displayImageCarousel/displayImageCarousel.js'
+import showSearch from './module/showSearch/showSearch.js'
+import brandList from './module/brandList/brandList.js'
+import displayImageCarousel from './module/displayImageCarousel/displayImageCarousel.js'
 import GIO_utils from '../../utils/GIO_utils.js'
 const app = Taro.getApp()
 const pageData = {

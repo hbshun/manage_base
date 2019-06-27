@@ -1,0 +1,176 @@
+.dialog-product {
+  background-color: #fafafa;
+  padding: 30px;
+  width: 100%;
+}
+
+.dialog-product-l {
+  width: 180px;
+  height: 180px;
+  float: left;
+  background-color: #fff;
+}
+
+.dialog-product-l > image {
+  width: 100%;
+  height: 100%;
+}
+
+.dialog-product-r {
+  width: 490px;
+  padding-left: 20px;
+  float: left;
+}
+
+.dialog-product-r-selected {
+  font-size: 24px;
+}
+
+.dialog-product-r-tip {
+  color: #e3ba7d;
+  font-size: 24px;
+  padding-top: 10px;
+}
+
+.dialog-product-content {
+  /* padding: 0 40rpx 0 30rpx;
+  height: 684rpx; */
+  height: 100%;
+}
+
+.scroll-out-view {
+  padding:0 30px 0 30px;
+  height: 684px;
+}
+
+.height-30 {
+  height: 30px;
+}
+
+.select-box {
+  padding-top: 30px;
+}
+
+.select-head {
+  font-size: 28px;
+  color: #333;
+}
+
+.select-item {
+  padding: 0;
+}
+
+.select-item > text {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 40px;
+  padding: 12px 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border: solid 1px #808080;
+  border-radius: 6px;
+}
+
+.select-item > text.current {
+  color: #b52020;
+  border-color: #b52020;
+}
+
+.select-item > text.disable {
+  color: #b2b2b2;
+  border-color: #e5e5e5;
+  background-color: #f5f5f5;
+}
+
+.btn-number-l, .btn-number-r, .btn-number-value {
+  background-color: #fff;
+  box-sizing: border-box;
+  border: solid 1px #808080;
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+  float: left;
+}
+
+.btn-number-l {
+  border-right: none;
+  width: 90px;
+  border-radius: 6px 0 0 6px;
+}
+
+.btn-number-r {
+  border-left: none;
+  width: 90px;
+  border-radius: 0 6px 6px 0;
+}
+
+.btn-number-value {
+  width: 130px;
+  font-size: 28px;
+}
+
+.btn-number-l::after, .btn-number-r::after {
+  display: none;
+}
+
+.btn-number-disable {
+  border-color: #e5e5e5;
+  background-color: #f5f5f5;
+  color: #b2b2b2;
+}
+
+.dialog-btnbox {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.dialog-btnbox  button {
+  flex: 1;
+}
+
+.dialog-btnbox .product-btn3 {
+  border: none;
+  box-sizing: border-box;
+  font-size: 28px;
+  height: 100px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  line-height: 100px;
+  color: #333;
+  background-color: #e7e7e7;
+}
+
+.dialog-btnbox .product-btn3::after {
+  display: none;
+}
+
+
+.select-box .choose-number {
+  display: flex;
+  padding-top: 60px;
+}
+
+/* .select-box .choose-number .choose-number {
+  height: 70rpx;
+  line-height: 70rpx;
+} */
+
+.select-box .choose-number .select-head {
+  flex-grow: 1;
+  height: 70px;
+  line-height: 70px;
+}
+
+.select-box .choose-number .select-item {
+  height: 70px;
+  line-height: 70px;
+  margin-right: 10px;
+}

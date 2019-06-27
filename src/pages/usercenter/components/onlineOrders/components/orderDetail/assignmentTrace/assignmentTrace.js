@@ -88,12 +88,12 @@ class _C extends Taro.Component {
                       <View className="trace-image-out">
                         {index == 0 ? (
                           <Image
-                            src={require('../../../../../image/trace/precent.png')}
+                            src={require('../../../../../../../image/trace/precent.png')}
                             className="trace-image precent"
                           ></Image>
                         ) : (
                           <Image
-                            src={require('../../../../../image/trace/old.png')}
+                            src={require('../../../../../../../image/trace/old.png')}
                             className="trace-image"
                           ></Image>
                         )}
@@ -102,7 +102,7 @@ class _C extends Taro.Component {
                       index == traceData.length - 1 && (
                         <View className="trace-image-out first-trace">
                           <Image
-                            src={require('../../../../../image/trace/old.png')}
+                            src={require('../../../../../../../image/trace/old.png')}
                             className="trace-image"
                           ></Image>
                         </View>
