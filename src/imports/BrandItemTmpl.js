@@ -1,5 +1,5 @@
 import GiftTmpl from './GiftTmpl'
-import ProductTmpl from './ProductTmpl'
+// import ProductTmpl from './ProductTmpl'
 import ActivityTmpl from './ActivityTmpl'
 import {
   Block,
@@ -109,11 +109,11 @@ export default class BrandItemTmpl extends Taro.Component {
                         className="product-movable-item"
                         direction="horizontal"
                       >
-                        <ProductTmpl
+                        {/* <ProductTmpl
                           data={{
                             item: (item, brandIndex)
                           }}
-                        ></ProductTmpl>
+                        ></ProductTmpl> */}
                       </MovableView>
                     </MovableArea>
                   </Block>

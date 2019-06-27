@@ -1,4 +1,4 @@
-import { Block } from '@tarojs/components'
+import { Block, View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import withWeapp from '@tarojs/with-weapp'
 // packageA/jumpBridge/jumpBridge.js
@@ -39,7 +39,9 @@ class _C extends Taro.Component {
   config = {}
 
   render() {
-    return null
+    return <View>
+      Hello, World
+    </View>
   }
 }
 
