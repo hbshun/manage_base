@@ -176,7 +176,6 @@ class App extends Taro.Component {
       'pages/usercenter/components/storeServices/components/userEquity/index',
       'pages/usercenter/components/storeServices/components/shoppingRecord/index',
       'pages/usercenter/components/storeServices/components/parkingPayment/index',
-      'pages/usercenter/components/storeServices/components/parkingPayment/components/AddLicensePlate/index',
       'pages/usercenter/components/storeServices/components/shoppingRecord/components/OrderDetail/index',
       'pages/usercenter/components/userInfo/components/parkingCouponList/index',
       'pages/usercenter/components/userInfo/components/couponList/index',

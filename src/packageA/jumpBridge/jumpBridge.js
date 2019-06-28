@@ -39,9 +39,7 @@ class _C extends Taro.Component {
   config = {}
 
   render() {
-    return <View>
-      Hello, World
-    </View>
+    return <View></View>
   }
 }
 
